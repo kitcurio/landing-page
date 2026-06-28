@@ -5,9 +5,13 @@ body {
     margin: 0;
 }
 
+
 .one {
     background: #1f2937;
-    padding: 0 100px;
+    padding: 0 100px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 .header {
     display: flex;
@@ -19,16 +23,15 @@ body {
     color: #F9FAF8;
 }
 
-ul {
+ul.links {
     display: flex;
     gap: 10px;
     list-style: none;
     padding: 0;
     margin: 0;
-    
 }
 
-li a {
+li a, .hero-header p {
     text-decoration: none;;
     color: #E5E7Eb;
     font-size: 18px;
@@ -42,8 +45,28 @@ h1 {
 
 .hero-content {
     display: flex;
-
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 30px;
 }
+
+.hero-header {
+    width: 48%;
+}
+
+.hero-header h1 {
+    margin: 0 0 -10px 0;
+}
+
+.hero-image {
+    background-color: gray;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
 
 button {
     color: white;
