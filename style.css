@@ -15,10 +15,11 @@ body {
     padding: 0 15% 50px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 80px;
 }
+
 .header {
-    padding-top: 10px;
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
     gap: 150px;
@@ -28,6 +29,7 @@ body {
     flex-shrink: 0;
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 ul.links {
@@ -80,4 +82,46 @@ h1 {
 button {
     color: white;
     background-color: #3882f6;
+    padding: 8px 25px;
+    border: 0;
+    border-radius: 3px;
+    font-weight: 650;
+}
+
+.two {
+    padding: 0 15% 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.two h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.block-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+
+.block-frame {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.block p {
+    display: block;
+    width: 150px;
 }
