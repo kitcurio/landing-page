@@ -43,7 +43,7 @@ ul.links {
 
 li a, .hero-header p {
     text-decoration: none;;
-    color: #E5E7Eb;
+    color: #bcc0c7;
     font-size: 18px;
 }
 
@@ -80,7 +80,7 @@ h1 {
 
 
 button {
-    color: white;
+    color: #f9faf8;
     background-color: #3882f6;
     padding: 8px 25px;
     border: 0;
@@ -124,4 +124,6 @@ button {
 .block p {
     display: block;
     width: 150px;
+    color: #353637;
 }
+
