@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 80px;
+    min-height: 400px;
 }
 
 .header {
@@ -83,12 +84,17 @@ h1 {
 }
 
 
-button {
+.header-btn {
     color: #f9faf8;
     background-color: #3882f6;
+}
+
+button {
+    width: 120px;
+    height: 40px;
     padding: 8px 25px;
     border: 0;
-    border-radius: 3px;
+    border-radius: 5px;
     font-weight: 650;
 }
 
@@ -154,4 +160,49 @@ blockquote {
 .author {
     text-align: right;
     font-weight: bold;;
+    font-size: 20px;
+    color: #1F2937;
 }
+
+.four {
+    display: flex;
+    justify-content: center;
+    padding: 100px 15% 100px;
+}
+
+.cta {
+    display: flex;
+    width: 90%;
+    height: 60%;
+    background-color: #3882f6;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    padding: 20px 130px;
+}
+
+.cta-left {
+    color: #F9FAF8;
+
+}
+
+.cta-left h3 {
+    margin-bottom: -10px;
+    font-size: 1.1em;
+}
+
+.cta-left p {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+
+.cta-btn {
+
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 2px solid #f9faf8;
+}
+
+
