@@ -90,6 +90,7 @@ h1 {
 }
 
 button {
+    min-width: 115px;
     width: 120px;
     height: 40px;
     padding: 8px 25px;
@@ -199,10 +200,14 @@ blockquote {
 
 
 .cta-btn {
-
     background-color: #3882f6;
     color: #F9FAF8;
     border: 2px solid #f9faf8;
 }
 
-
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px;
+    text-align: center;
+}
